@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class AboutController extends Controller
 {
     public function About() {
-        return 'Selamat Datang di Halaman About Us';
-    }
+        return view ('about');
+}
 }

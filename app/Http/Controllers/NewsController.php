@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class NewsController extends Controller
 {
     public function news($id){
-        return 'Halaman NEWS ke- '.$id;
+        return view ('news',['newske' => $id]);
     }
 
 }

@@ -7,10 +7,10 @@ use Illuminate\Http\Request;
 class ProdiController extends Controller
 {
     public function Prodi() {
-        return ('Halaman Prodi Manajemen Informatika');
+        return view ('MI');
     }
 
     public function Prodi2() {
-        return ('Halaman Prodi Teknik Informatika');
+        return view ('TI');
     }
 }

@@ -20,6 +20,7 @@ use App\Http\Controllers\CommentController;
 |
 */
 
+
 Route::get('/Home', [HomeController::class,'Home'] );
 
 

@@ -7,18 +7,18 @@ use Illuminate\Http\Request;
 class SaranaController extends Controller
 {
     public function Kantor() {
-        return ('Daftar Sarana perkantoran');
+        return view ('kantor');
     }
 
     public function Labor() {
-        return ('Daftar Sarana Labotarium');
+        return view ('lab');
     }
 
     public function Kelas() {
-        return ('Daftar Sarana Kelas');
+        return view ('kelas');
     }
 
     public function Lainnya() {
-        return ('Daftar Sarana Lainnya');
+        return view ('lainnya');
     }
 }
